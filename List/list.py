@@ -35,23 +35,24 @@
 
 
 # Example 4 - Negative Indexing
-# marks = [10, 20, 30, "Bhavesh", False]
-# print(marks[-3]) #Negative Index
-# print(marks[len(marks)-3]) #Positive Index
-# print(marks[5-3]) #Positive Index
-# print(marks[2]) #Positive Index
+marks = [10, 20, 30, "Bhavesh", False]
+print(marks[-3]) #Negative Index
+print(marks[len(marks)-3]) #Positive Index
+print(marks[5-3]) #Positive Index
+print(marks[2]) #Positive Index
 
 # Check Whether an Item is present in the list?
-# marks = [10, 20, 30, "Bhavesh", False]
-# if 30 in marks:
-#     print("Yes")
-# else:
-#     print("No")
+marks = [10, 20, 30, "Bhavesh", False]
+if 30 in marks:
+    print("Yes")
+else:
+    print("No")
 
 # Access the value
-# marks = [10, 20, 30, "Bhavesh", False]
-# print(marks)
-# print(marks[:])
-# print(marks[1:])
-#
+marks = [10, 20, 30, "Bhavesh", False]
+print(marks)
+# : slice operator
+print(marks[:]) 
+print(marks[1:])
+
 
