@@ -18,7 +18,7 @@
 # print(a!=18)
 # #
 # if(a>18):
-#     rint("You can drive!") #identation - new block is getting start
+#     print("You can drive!") #identation - new block is getting start
 # else:
 #     print("You cannot drive!")
 
